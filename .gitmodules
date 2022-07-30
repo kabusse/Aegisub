@@ -1,42 +1,52 @@
-[submodule "freetype2"]
-	path = vendor/freetype2
-	url = git://git.sv.nongnu.org/freetype/freetype2.git
+[submodule "deps/fribidi"]
+	path = deps/fribidi
+	url = https://github.com/fribidi/fribidi.git
 	ignore = dirty
-[submodule "wxWidgets"]
-	path = vendor/wxWidgets
-	url = git://github.com/rcombs/wxWidgets.git
+[submodule "deps/freetype2"]
+	path = deps/freetype2
+	url = https://github.com/aseprite/freetype2.git
 	ignore = dirty
-[submodule "googletest"]
-	path = vendor/googletest
-	url = git://github.com/svn2github/googletest.git
+[submodule "deps/zlib"]
+	path = deps/zlib
+	url = https://github.com/madler/zlib.git
 	ignore = dirty
-[submodule "ffmpeg"]
-	path = vendor/ffmpeg
-	url = git://source.ffmpeg.org/ffmpeg.git
+[submodule "deps/wxWidgets"]
+	path = deps/wxWidgets
+	url = https://github.com/wxWidgets/wxWidgets.git
 	ignore = dirty
-[submodule "ffms2"]
-	path = vendor/ffms2
-	url = git://github.com/FFMS/ffms2.git
+[submodule "deps/googletest"]
+	path = deps/googletest
+	url = https://github.com/svn2github/googletest.git
+	ignore = dirty
+[submodule "deps/ffmpeg"]
+	path = deps/ffmpeg
+	url = https://github.com/FFmpeg/FFmpeg.git
+	ignore = dirty
+[submodule "deps/ffms2"]
+	path = deps/ffms2
+	url = https://github.com/FFMS/ffms2.git
 	branch = master
 	ignore = dirty
-[submodule "libass"]
-	path = vendor/libass
-	url = git://github.com/libass/libass.git
-	branch = master
-[submodule "icu"]
-	path = vendor/icu
-	url = git://github.com/svn2github/icu4c.git
-	branch = master
+[submodule "deps/fontconfig"]
+	path = deps/fontconfig
+	url = https://github.com/tgoyne/fontconfig.git
+	branch = msvc
 	ignore = dirty
-[submodule "boost"]
-	path = vendor/boost
+[submodule "deps/libass"]
+	path = deps/libass
+	url = https://github.com/libass/libass.git
+	branch = master
+[submodule "deps/icu"]
+	path = deps/icu
+	url = https://github.com/sillsdev/icu4c-svn.git
+	branch = trunk
+	ignore = dirty
+[submodule "deps/boost"]
+	path = deps/boost
 	url = https://github.com/boostorg/boost.git
 	ignore = dirty
-[submodule "fftw"]
-	path = vendor/fftw
-	url = https://github.com/Aegisub/fftw3.git
-	ignore = dirty
-[submodule "uchardet"]
-	path = vendor/uchardet
-	url = https://gitlab.freedesktop.org/uchardet/uchardet.git
+[submodule "deps/lua"]
+	path = deps/lua
+	url = git://github.com/ittner/Lua-experimentation.git
+	branch = lua51
 	ignore = dirty
