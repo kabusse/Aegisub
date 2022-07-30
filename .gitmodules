@@ -1,44 +1,44 @@
 [submodule "deps/fribidi"]
 	path = deps/fribidi
-	url = git://anongit.freedesktop.org/fribidi/fribidi
+	url = https://github.com/fribidi/fribidi.git
 	ignore = dirty
 [submodule "deps/freetype2"]
 	path = deps/freetype2
-	url = git://git.sv.nongnu.org/freetype/freetype2.git
+	url = https://github.com/aseprite/freetype2.git
 	ignore = dirty
 [submodule "deps/zlib"]
 	path = deps/zlib
-	url = git://github.com/madler/zlib.git
+	url = https://github.com/madler/zlib.git
 	ignore = dirty
 [submodule "deps/wxWidgets"]
 	path = deps/wxWidgets
-	url = git://github.com/wxWidgets/wxWidgets.git
+	url = https://github.com/wxWidgets/wxWidgets.git
 	ignore = dirty
 [submodule "deps/googletest"]
 	path = deps/googletest
-	url = git://github.com/svn2github/googletest.git
+	url = https://github.com/svn2github/googletest.git
 	ignore = dirty
 [submodule "deps/ffmpeg"]
 	path = deps/ffmpeg
-	url = git://source.ffmpeg.org/ffmpeg.git
+	url = https://github.com/FFmpeg/FFmpeg.git
 	ignore = dirty
 [submodule "deps/ffms2"]
 	path = deps/ffms2
-	url = git://github.com/FFMS/ffms2.git
+	url = https://github.com/FFMS/ffms2.git
 	branch = master
 	ignore = dirty
 [submodule "deps/fontconfig"]
 	path = deps/fontconfig
-	url = git://github.com/tgoyne/fontconfig.git
+	url = https://github.com/tgoyne/fontconfig.git
 	branch = msvc
 	ignore = dirty
 [submodule "deps/libass"]
 	path = deps/libass
-	url = https://code.google.com/p/libass/
+	url = https://github.com/libass/libass.git
 	branch = master
 [submodule "deps/icu"]
 	path = deps/icu
-	url = git://github.com/sillsdev/icu4c.git
+	url = https://github.com/sillsdev/icu4c-svn.git
 	branch = trunk
 	ignore = dirty
 [submodule "deps/boost"]
